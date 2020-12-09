@@ -168,8 +168,8 @@ const loopSliders = new Sliders (
     '.loopSliders',
     [
         'img/Rectangle.png',
-        'img/Rectangle.png',
-        'img/Rectangle.png'
+        'img/Section-two1.png',
+        'img/Section-two.jpg'
         
     ]
 
