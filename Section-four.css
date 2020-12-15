@@ -1,0 +1,150 @@
+.slider-container-four{
+    width: 1110px;
+    min-height: 320px;
+	margin: 0;
+	
+}
+.slider-item-four{
+    display: none;
+}
+.slider-active-four{
+    display: block;
+}
+
+
+.section-four{
+    width: 100%;
+    min-height: 900px;
+
+    background-color: white;
+    position: relative;
+
+    
+}
+.slider-reviews{
+    position: absolute;
+    width: 1110px;
+    min-height: 320px;
+    top: 330px;
+    left: 405px;
+    background-color:  rgba(235, 235, 235, 1);
+    
+    position: relative;
+    
+}
+.slider-reviews-txt{
+    position: absolute;
+    padding-left: 95px;
+    padding-top: 45px;
+    max-width: 920px;
+    margin: 0%;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+.slider-face{
+    position: absolute;
+    padding-top: 195px;
+    padding-left: 95px;
+    width: 80px;
+    height: 80px;
+}
+
+.slider-face-locate{
+    position: absolute;
+    padding-top: 212px;
+    padding-left: 210px
+
+}
+.slider-face-name{
+    
+    margin: 0%;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.slider-face-position{
+    margin: 0%;
+    
+    
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(79, 79, 79, 1);
+}
+
+.prev-two,
+.next-two{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    
+	top: 700px;
+    width: 60px;
+    height: 60px;
+    
+	color: #fff;
+	z-index: 4;
+	transition: .6s;
+}
+.prev-two{
+    left: 1395px;
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 0.2;
+}
+.next-two{
+    left: 1455px;
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 1;
+}
+.prev-two:hover,
+.next-two:hover{
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 1;
+}
+.prev-two:hover + .next-two{
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 0.2;
+}
+.dots{
+    position: absolute;
+    
+    cursor: pointer;
+    /* top: 520px; */
+    /* left: 405px; */
+	width: 10px;
+	height: 10px;
+	margin-right: 40px;
+	border-radius: 50%;
+	display: inline-block;
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 0.4;
+    transition: background-color, opacity 0.6s ease;
+    z-index: 4;
+}
+.dot-all-two{
+    top: 750px;
+}
+.dot-next-one{
+    
+    left: 405px;
+}
+.dot-next-two{
+    
+    left: 455px;
+}
+.dot-next-three{
+    
+    left: 505px;
+}
+.dot-next-four{
+   
+    left: 555px;
+}

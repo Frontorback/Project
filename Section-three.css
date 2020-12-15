@@ -1,0 +1,161 @@
+.section-about{
+    max-width: 50%;
+    /* align-self: flex-start; */
+    
+    
+}
+
+.section-three{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    
+    min-height: 852px;
+    
+    
+    margin: 0ch;
+    background-color: rgba(249, 249, 249, 1);
+    position: relative;
+}
+
+.section-about-us{
+    margin: 0%;
+    padding-left: 405px;
+    padding-top: 148px;
+
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: rgba(189, 189, 189, 1);
+}
+
+.section-about-company{
+    margin: 0%;
+    padding-left: 407px;
+    padding-top: 40px;
+    max-width: 350px;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+span{
+    color: rgba(0, 95, 163, 1);
+}
+
+.section-about-company-text {
+    margin: 0%;
+    padding-left: 405px;
+    padding-top: 60px;
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    max-width: 445px;
+}
+
+.section-three-images{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 35%;
+    
+    
+    
+}
+
+.section-three-images-block{
+    position: absolute;
+    
+    left: 975px;
+    /* top: -462px;  */
+    top: 172px;
+    width: 255px;
+    height: 255px;
+    background-color: rgba(235, 235, 235, 1);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.section-three-images-block_start{
+    background-color: rgba(0, 95, 163, 1);
+    
+    
+}
+.section-three-images-block_for-start:hover + .section-three-images-block_start{
+    background-color: rgba(235, 235, 235, 1);
+
+}
+
+.section-three-images-block:hover {
+    background-color: rgba(0, 95, 163, 1);
+}
+.section-three-images-block:hover  .in-images-num{
+    
+    color: white;
+}
+.section-three-images-block:hover  .in-images-txt{
+    
+    color: white;
+}
+
+.section-three-images-block:hover  a{
+    
+    color: white;
+}
+
+
+.in-images-num{
+    padding-left: 40px;
+    padding-top: 30px;
+
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase; 
+
+    color: rgba(0, 0, 0, 1);
+}
+
+.in-images-txt{
+    padding-left: 40px;
+    padding-top: 30px;
+    max-width: 107px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #000000;
+}
+
+.in-images-href{
+    padding-left: 40px;
+    padding-top: 47px;
+    
+
+   
+}
+.href{
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    font-weight: bold;
+    
+    
+
+    color: #005FA3;
+}
+/* .href:hover{
+    
+    color: white;
+
+} */
