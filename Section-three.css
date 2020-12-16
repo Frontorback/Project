@@ -31,6 +31,7 @@
 }
 
 .section-about-company{
+    font-family: Merriweather-Regular;
     margin: 0%;
     padding-left: 407px;
     padding-top: 40px;
@@ -74,7 +75,6 @@ span{
     position: absolute;
     
     left: 975px;
-    /* top: -462px;  */
     top: 172px;
     width: 255px;
     height: 255px;
@@ -84,15 +84,7 @@ span{
     position: relative;
     
 }
-.section-three-images-block_start{
-    background-color: rgba(0, 95, 163, 1);
-    
-    
-}
-.section-three-images-block_for-start:hover + .section-three-images-block_start{
-    background-color: rgba(235, 235, 235, 1);
 
-}
 
 .section-three-images-block:hover {
     background-color: rgba(0, 95, 163, 1);
@@ -149,6 +141,7 @@ span{
     line-height: 17px;
     text-decoration-line: underline;
     font-weight: bold;
+    z-index: 4;
     
     
 

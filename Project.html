@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="Section-three.css">
     <link rel="stylesheet" href="Slider-Project.css">
     <link rel="stylesheet" href="Section-four.css">
+    <link rel="stylesheet" href="section-five.css">
+    <link rel="stylesheet" href="The-End.css">
+    
     <script src="Project.js" defer></script>
     <script src="Slider-Project.js" defer></script>
     <script src="Slider-Project-three.js" defer></script>
@@ -21,9 +24,10 @@
     <header class="head">
     <div class="head-logo">
         <img src="img/logo.png" alt="vector" class="logo">
-        <img src="img/BuhOne.png" alt="BuhOne" class="name">
+        <div class="name">BuhOne</div>
+        
     </div>
-        <nav class="nav">
+        <nav>
             <ul class="list">
                 <li class="contacts">
                     <img src="img/phone.png" alt="phone" class="picture">
@@ -43,26 +47,66 @@
                 </li>
             </ul>
             <ul class="list-two">
-                <li class="list-two-about">главная</li>
-                <li class="list-two-about">услуги</li>
-                <li class="list-two-about">кейсы</li>
-                <li class="list-two-about">о компании</li>
-                <li class="list-two-about">контакты</li>
+                <li><a class="list-two-about list-two-main" href="#">главная</a> </li>
+                <li><a class="list-two-about" href="#services">услуги</a></li>
+                <li><a class="list-two-about" href="#cases">кейсы</a></li>
+                <li><a class="list-two-about" href="#cases">о компании</a></li>
+                <li><a class="list-two-about list-two-last" href="#our-contacts">контакты</a></li>
 
             </ul>
         </nav>
     
     </header>
+    
     <div class="loopSliders">
-        <p class="loopSliders-text">Бухгалтерские услуги в Санкт-Петербурге</p>
-        <button class="loopSliders-presentation">Наша презентация</button>
-        <img src="img/Ellipse.png" alt="ellipse" id="loopSliders-ellipses" class="loopSliders-ellipse first-ellipse loopSlider-changed">
-        <img src="img/Ellipse.png" alt="ellipseSec" class="loopSliders-ellipse second-ellipse loopSlider-changed">
-        <img src="img/Ellipse.png" alt="ellipseThree" class="loopSliders-ellipse three-ellipse loopSlider-changed">
+        <div class="loopSliders-item loopSliders-active">
+            <p class="loopSliders-text">Бухгалтерские услуги в Санкт-Петербурге</p>
+            <button class="loopSliders-presentation">Наша презентация</button>
+          
+          <img class="loopSliders-img" src="img/Rectangle.png" alt="Rectangle" >
+          
+        </div>
+        <div class="loopSliders-item ">
+            <p class="loopSliders-text">Бухгалтерские услуги в Санкт-Петербурге</p>
+            <button class="loopSliders-presentation">Наша презентация</button>
+          
+          <img class="loopSliders-img" src="img/Section-two.jpg" alt="Rectangle" >
+          
+        </div>
+          
+          
         
-    </div>
+        <div class="loopSliders-item ">
+            <p class="loopSliders-text">Бухгалтерские услуги в Санкт-Петербурге</p>
+            <button class="loopSliders-presentation">Наша презентация</button>
+          
+          <img class="loopSliders-img" src="img/Section-two1.png" alt="Rectangle" >
+          
+        </div>
+         
+          
+        
+        <div class="loopSliders-item ">
+            <p class="loopSliders-text">Бухгалтерские услуги в Санкт-Петербурге</p>
+            <button class="loopSliders-presentation">Наша презентация</button>
+          
+          <img class="loopSliders-img" src="img/Rectangle.png" alt="Rectangle" >
+          
+        </div>
+          
+          
+       
+        <a class="prev-first" data-changing="-1"></a>
+        <a class="next-first" data-changing="+1"></a>
+        <div>
+          <span class="doted doted-one"></span>
+          <span class="doted doted-two"></span>
+          <span class="doted doted-three"></span>
+          <span class="doted doted-four"></span>
+        </div>
+      </div>
 
-    <div class="section-two">
+    <div class="section-two" id="services">
         <p class="section-our">Наши услуги</p>
         <p class="section-specialization">Мы специализируемся</p>
         <div class="section-images">
@@ -94,7 +138,7 @@
     </div>
     
 
-    <div class="section-three">
+    <div class="section-three " id="cases">
         <div class="section-about">
             <p class="section-about-us">О нас</p>
             <p class="section-about-company">Компания <span>ИвановПром</span></p>
@@ -142,7 +186,7 @@
         <img class="slider-item-img" src="img/microsoft.png" alt="microsoft" >
     </div>
         
-        <img class="slider-main" src="img/Slider-img.png" alt="1" style="width: 100%;">
+        
         
       </div>
       <div class="slider-item">
@@ -154,7 +198,7 @@
         <img class="slider-item-img" src="img/microsoft.png" alt="microsoft" >
         
     </div>
-        <img src="img/Slider-img.png" alt="2" style="width: 100%;">
+        
         
       </div>
       <div class="slider-item">
@@ -165,7 +209,7 @@
         <img class="slider-item-img" src="img/microsoft.png" alt="microsoft" >
         
     </div>
-        <img src="img/Slider-img.png" alt="3" style="width: 100%;">
+       
         
       </div>
       <div class="slider-item">
@@ -175,16 +219,16 @@
         <img class="slider-item-img" src="img/microsoft.png" alt="microsoft" >
         
     </div>
-        <img src="img/Slider-img.png" alt="3" style="width: 100%;">
+        
         
       </div>
       <a class="prev" data-change="-1"></a>
       <a class="next" data-change="+1"></a>
       <div>
-        <span class="dots dot-one"></span>
-        <span class="dots dot-two"></span>
-        <span class="dots dot-three"></span>
-        <span class="dots dot-four"></span>
+        <span class="dot dot-one"></span>
+        <span class="dot dot-two"></span>
+        <span class="dot dot-three"></span>
+        <span class="dot dot-four"></span>
       </div>
     </div>
 
@@ -192,8 +236,8 @@
 
 
     <div class="section-four">
-        <p class="slider-item-clients">Отзывы</p>
-          <p class="slider-item-work">Ваши благодарности</p>
+        <p class="slider-four-clients">Отзывы</p>
+          <p class="slider-four-work">Ваши благодарности</p>
          
 
     <div class="slider-container-four">
@@ -219,7 +263,7 @@
                   <p class="slider-reviews-txt">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                       Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                       В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-                      Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                    </p>
                   <div>
                       <img class="slider-face" src="img/logo.png" alt="face">
                       <div class="slider-face-locate">
@@ -235,8 +279,7 @@
                     <div class="slider-reviews">
                       <p class="slider-reviews-txt">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                           Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                          В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-                          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                         </p>
                       <div>
                           <img class="slider-face" src="img/face.png" alt="face">
                           <div class="slider-face-locate">
@@ -250,9 +293,7 @@
                       <div class="slider-item-four ">
                         <div class="slider-reviews">
                           <p class="slider-reviews-txt">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                              Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                              В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-                              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. </p>
+                            </p>
                           <div>
                               <img class="slider-face" src="img/face.png" alt="face">
                               <div class="slider-face-locate">
@@ -271,9 +312,47 @@
                       <span class="dots dot-next-four dot-all-two"></span>
                     </div>
                         </div>
-          
-        
 
     </div>
+
+
+    <div class="section-five" id="our-contacts">
+        
+        <div class="contact">
+            <h1 class="contact-us">Связь с нами</h1>
+            <div class="contact-questions" >У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</div>
+            <div class="contact-num-mail">
+                <img class="white-phone" src="img/white-phone.png" alt="white-phone">
+                <div class="num-white-phone">+7 (111) 222-33-44</div>
+                <img class="white-mail" src="img/white-mail.png" alt="white-mail">
+                <div class="email-white-mail">order@bu-one.ru</div>
+            </div>
+            <label class="contact-second">
+                <div class="contact-second-name">Имя:</div>
+                <input class="contact-second-text" type="text" name="name" autocomplete="on" required placeholder="Иван">
+                <div class="underline"></div>
+            </label>
+            <label class="contact-second-two">
+                <div class="contact-second-name-two">Фамилия:</div>
+                <input class="contact-second-text-two" type="text" name="name-text" autocomplete="on" required placeholder="Иванов">
+                <div class="underline-second"></div>
+            </label>
+            <label class="contact-second-three">
+                <div class="contact-second-name-three">Сообщение</div>
+                <input class="contact-second-text-three" type="text" name="name-text" autocomplete="on" required placeholder="Ваше сообщение">
+                <div class="underline-three"></div>
+            </label>
+
+            <button class="submit-button" type="submit">Отправить сообщение</button>
+
+        </div>
+
+    </div>
+
+
+    <footer class="The-end">
+        <p class="The-end-first">2019 (с) Все права защищены. БухОне.ру</p>
+        <p class="The-end-second">Разработано: BuhOne</p>
+    </footer>
 </body>
 </html>

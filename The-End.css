@@ -1,0 +1,30 @@
+.The-end{
+    height: 110px;
+    background: white;
+    position: relative;
+}
+
+.The-end-first{
+
+    position: absolute;
+    top: 50px;
+    left: 407px;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(189, 189, 189, 1);
+}
+.The-end-second{
+    position: absolute;
+    width: 401px;
+    text-align: right;
+
+    top: 50px;
+    left: 1114px;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(189, 189, 189, 1);
+}

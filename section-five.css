@@ -1,0 +1,190 @@
+
+
+.section-five{
+
+    background: url(img/TheEnd.png);
+    width: 100%;
+    height: 623px;
+    background-size: cover;
+    position: relative;
+    
+
+    
+}
+
+.contact-us{
+    font-family: Merriweather-Regular;
+    margin: 0%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+
+    top: 122px;
+    left: 407px;
+
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+}
+
+.contact-questions{
+    max-width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+    top: 229px;
+    left: 405px;
+    color: rgba(189, 189, 189, 1);
+    position: absolute;
+}
+
+.contact-num-mail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    top: 351px;
+    left: 407px;
+    position: absolute;
+}
+
+.white-phone{
+    width: 18px;
+    height: 30px;
+}
+
+.num-white-phone{
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: rgba(189, 189, 189, 1);
+}
+.white-mail{
+    padding-left: 40px;
+    width: 40px;
+    height: 30px;
+}
+
+.email-white-mail{
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: rgba(189, 189, 189, 1);
+}
+
+.contact-second{
+    position: absolute;
+    top: 135px;
+    left: 975px;
+}
+.contact-second-name{
+
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    color: white;
+}
+.contact-second-text{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: rgba(189, 189, 189, 1);
+    
+    
+    outline: none;
+    background: none;
+    border-style: none;
+    
+    
+    
+    
+}
+
+.underline{
+
+    height: 0px;
+    width: 255px;
+    
+    border: 1px solid  rgba(189, 189, 189, 1);
+    
+}
+.contact-second-two{
+    position: absolute;
+    top: 135px;
+    left: 1260px;
+}
+
+.contact-second-name-two{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.contact-second-text-two{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: rgba(189, 189, 189, 1);
+    background: none;
+    border-style: none;
+    outline: none;
+    
+}
+
+.underline-second{
+    height: 0px;
+    width: 255px;
+    
+    border: 1px solid  rgba(189, 189, 189, 1);
+}
+.contact-second-three{
+    position: absolute;
+    top: 306px;
+    left: 975px;
+    outline: none;
+}
+
+.contact-second-name-three{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 15px;
+    color: white;
+}
+.contact-second-text-three{
+    
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: rgba(189, 189, 189, 1);
+    background: none;
+    border-style: none;
+    outline: none;
+    
+    
+}
+
+.underline-three{
+    height: 0px;
+    width: 540px;
+    border: 1px solid  rgba(189, 189, 189, 1);
+}
+
+.submit-button{
+    position: absolute;
+    background-color: rgba(0, 95, 163, 1);
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 270px;
+    height: 60px;
+    top: 423px;
+    left: 1245px;
+    border-width: 0px;
+    cursor: pointer;
+}

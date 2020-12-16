@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(shrifts/Lato-Regular.ttf);
+
+    font-family: Merriweather-Regular;
+    src: url(shrifts/Merriweather-Regular.ttf);
+}
+
+
 html {
-    font-family: l;
+    font-family: Lato-Regular;
+    
 }
 body{
     margin: 0;
@@ -8,38 +18,46 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
+    justify-content: center;
+    align-items: center;
     
     width: 100%;
-    /* height: 100%; */
-
     height: 110px;
-    align-items: flex-start;
-    justify-content: space-between;
-
     
     background:  #E5E5E5;
+    position: relative;
     
 }
 
 .head-logo{
-    padding-left: 405px;
-    padding-top: 30px;
+    position: absolute;
+    left: 405px;
+    top: 33px;
     display: flex;
     flex-wrap: nowrap;
     
 }
 
 .logo{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     padding-right: 30px;
     
 }
 .name{
-    width: 190px;
-    height: 43px;
+    font-family: Merriweather-Regular;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+
+    color: rgba(0, 95, 163, 1);
     
+}
+
+nav{
+    position: absolute;
+    left: 850px;
+    top: 22px;
 }
 
 .list{
@@ -48,8 +66,8 @@ body{
     list-style-type: none;
     margin: 0%;
     padding-left: 0%;
-    margin-left: 185px;
-    margin-right: 400px;
+    
+    
     
     
     
@@ -57,10 +75,11 @@ body{
 .contacts {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 22px;
+    
     padding-right: 40px;
     margin: 0px;
     font-size: 13px;
+    line-height: 17px;
     
    
     
@@ -71,8 +90,8 @@ body{
     height: 17px;
 }
 .number{
-    width: 107px;
-    height: 18px;
+    font-size: 13px;
+    /* line-height: 17px; */
     padding-right: 15px;
 }
 
@@ -98,18 +117,35 @@ body{
    
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     list-style-type: none;
     margin: 0%;
     padding: 0;
-    margin-left: 185px;
+    
     padding-top: 20px;
     
 }
 
 .list-two-about{
-    padding-right: 68px;
+    padding: 0px 34px;
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(34, 34, 34, 1);
+
+    border-bottom: 3px solid transparent;
+}
+.list-two-main{
+    padding-left: 0px;
+}
+.list-two-last{
+    padding-right: 30.5px;
+    padding-left: 30.5px;
+}
+
+.list-two-about:hover{
+    /* text-decoration: underline; */
+    border-bottom-color: white;
 }

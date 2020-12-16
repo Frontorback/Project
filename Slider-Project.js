@@ -1,4 +1,4 @@
-window.onload = function() {
+(function() {
 
     var slider = document.querySelector('.slider-container');
     var sliderItems = document.querySelectorAll('.slider-item');
@@ -37,3 +37,4 @@ window.onload = function() {
     }
     
     }
+)()
