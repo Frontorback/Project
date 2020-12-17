@@ -188,3 +188,13 @@
     border-width: 0px;
     cursor: pointer;
 }
+
+button:active{
+    opacity: 0.5;
+}
+
+
+    /* input:-internal-autofill-selected:focus{
+        background-color: rgb(0, 94, 255) !important;}
+     */
+    

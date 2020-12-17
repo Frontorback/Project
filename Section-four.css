@@ -135,6 +135,11 @@
     background-color: rgba(0, 95, 163, 1);
     opacity: 1;
 }
+.prev-two:active,
+.next-two:active{
+    background-color: rgba(0, 95, 163, 1);
+    opacity: 0.1;
+}
 .prev-two:hover + .next-two{
     background-color: rgba(0, 95, 163, 1);
     opacity: 0.2;
