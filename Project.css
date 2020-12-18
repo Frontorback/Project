@@ -92,7 +92,7 @@ nav{
 }
 .number{
     font-size: 13px;
-    /* line-height: 17px; */
+    line-height: 17px;
     padding-right: 15px;
 }
 
@@ -148,6 +148,6 @@ nav{
 }
 
 .list-two-about:hover{
-    /* text-decoration: underline; */
+
     border-bottom-color: #E5E5E5;;
 }
