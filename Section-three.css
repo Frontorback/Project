@@ -1,6 +1,6 @@
 .section-about{
     max-width: 50%;
-    /* align-self: flex-start; */
+    
     
     
 }
@@ -141,14 +141,9 @@
     line-height: 17px;
     text-decoration-line: underline;
     font-weight: bold;
-    z-index: 4;
+    
     
     
 
     color: #005FA3;
 }
-/* .href:hover{
-    
-    color: white;
-
-} */

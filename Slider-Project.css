@@ -88,23 +88,24 @@
 	display: inline-block;
     background-color: rgba(0, 95, 163, 1);
     opacity: 0.4;
-	transition: background-color, opacity 0.6s ease;
+    transition: background-color, opacity 0.6s ease;
+    top: 520px;
 }
 
 .dot-one{
-    top: 520px;
+    
     left: 405px;
 }
 .dot-two{
-    top: 520px;
+    
     left: 455px;
 }
 .dot-three{
-    top: 520px;
+    
     left: 505px;
 }
 .dot-four{
-    top: 520px;
+    
     left: 555px;
 }
 
@@ -157,5 +158,5 @@
     
 }
 
-/* Slider-two */
+
 
