@@ -19,7 +19,6 @@
 }
 
 .section-about-us{
-    margin: 0%;
     padding-left: 405px;
     padding-top: 148px;
 
@@ -32,7 +31,7 @@
 
 .section-about-company{
     font-family: Merriweather-Regular;
-    margin: 0%;
+    
     padding-left: 407px;
     padding-top: 40px;
     max-width: 350px;
@@ -42,9 +41,10 @@
     line-height: 69px;
     color: #333333;
 }
-span{
+.section-about-company-name{
     color: rgba(0, 95, 163, 1);
 }
+
 
 .section-about-company-text {
     margin: 0%;

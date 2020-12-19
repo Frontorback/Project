@@ -7,8 +7,9 @@
     
 }
 
+
 .section-our{
-    margin: 0%;
+    
     font-weight: 900;
     font-size: 24px;
     line-height: 33px;
@@ -21,7 +22,7 @@
 
 .section-specialization{
     font-family: Merriweather-Regular;
-    margin: 0%;
+    
     font-weight: 900;
     font-size: 48px;
     line-height: 69px;
@@ -40,6 +41,7 @@
     /* max-width: 65%; */
     margin: 0 15%;
     
+    
 }
 
 .image{
@@ -50,6 +52,7 @@
     background-size: cover;
     margin-right: 30px;
     margin-top: 30px;
+    
     
     
   

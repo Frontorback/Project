@@ -8,7 +8,7 @@
 
 .slider-four-clients{
     position: absolute;
-    margin: 0px;
+    
     margin-top: 140px;
     margin-left: 405px;
     font-weight: 900;
@@ -21,7 +21,7 @@
 .slider-four-work{
     font-family: Merriweather-Regular;
     position: absolute;
-    margin: 0px;
+    
     margin-top: 203px;
     margin-left: 407px;
     font-weight: 900;
@@ -86,7 +86,7 @@
 }
 .slider-face-name{
     
-    margin: 0%;
+    
     font-weight: 900;
     font-size: 18px;
     line-height: 25px;
@@ -95,8 +95,6 @@
 }
 
 .slider-face-position{
-    margin: 0%;
-    
     
     font-size: 14px;
     line-height: 19px;

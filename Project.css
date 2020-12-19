@@ -1,9 +1,9 @@
 @font-face {
     font-family: Lato-Regular;
-    src: url(shrifts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 
     font-family: Merriweather-Regular;
-    src: url(shrifts/Merriweather-Regular.ttf);
+    src: url(fonts/Merriweather-Regular.ttf);
 }
 
 
@@ -94,6 +94,7 @@ nav{
     font-size: 13px;
     line-height: 17px;
     padding-right: 15px;
+    
 }
 
 .date{
