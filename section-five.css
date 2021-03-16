@@ -20,7 +20,7 @@
     line-height: 69px;
 
     top: 122px;
-    left: 407px;
+    padding-left: 21.197916%;
 
     color: rgba(255, 255, 255, 1);
     position: absolute;
@@ -33,7 +33,7 @@
     line-height: 25px;
 
     top: 229px;
-    left: 405px;
+    padding-left: 21.09%;
     color: rgba(189, 189, 189, 1);
     position: absolute;
 }
@@ -44,7 +44,7 @@
     flex-wrap: nowrap;
 
     top: 351px;
-    left: 407px;
+    padding-left: 21.197916%;
     position: absolute;
 }
 
@@ -60,6 +60,10 @@
     line-height: 29px;
 
     color: rgba(189, 189, 189, 1);
+}
+.email-c{
+    display: flex;
+    
 }
 .white-mail{
     padding-left: 40px;
@@ -79,7 +83,9 @@
 .contact-second{
     position: absolute;
     top: 135px;
-    left: 975px;
+    padding-left: 50.78125%;
+    width: 14.84375%;
+    z-index: 3;
 }
 .contact-second-name{
 
@@ -98,6 +104,7 @@
     outline: none;
     background: none;
     border-style: none;
+    width: 86%;
     
     
     
@@ -107,7 +114,7 @@
 .underline{
 
     height: 0px;
-    width: 255px;
+    width: 87%;
     
     border: 1px solid  rgba(189, 189, 189, 1);
     
@@ -115,7 +122,10 @@
 .contact-second-two{
     position: absolute;
     top: 135px;
-    left: 1260px;
+    padding-left:  65.625%;
+    /* width: 100%%; */
+    width: 34.375%;
+    z-index: 2;
 }
 
 .contact-second-name-two{
@@ -123,6 +133,7 @@
     line-height: 22px;
     padding-bottom: 15px;
     color: white;
+    
 }
 
 .contact-second-text-two{
@@ -133,20 +144,23 @@
     background: none;
     border-style: none;
     outline: none;
+    width: 37.5625%;
     
 }
 
 .underline-second{
     height: 0px;
-    width: 255px;
+    width: 37.5625%;
     
     border: 1px solid  rgba(189, 189, 189, 1);
 }
 .contact-second-three{
     position: absolute;
-    top: 306px;
-    left: 975px;
+    padding-top: 306px;
+    padding-left: 50.78125%;
     outline: none;
+    /* width: 100%; */
+    width: 49.21875%;
 }
 
 .contact-second-name-three{
@@ -164,13 +178,14 @@
     background: none;
     border-style: none;
     outline: none;
+    width: 56.75%;
     
     
 }
 
 .underline-three{
     height: 0px;
-    width: 540px;
+    width: 56.75%;
     border: 1px solid  rgba(189, 189, 189, 1);
 }
 
@@ -181,10 +196,10 @@
     line-height: 25px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    width: 270px;
+    width: 14.0625%;
     height: 60px;
-    top: 423px;
-    left: 1245px;
+    margin-top: 423px;
+    margin-left: 64.84375%;
     border-width: 0px;
     cursor: pointer;
 }
@@ -193,5 +208,98 @@ button:active{
     opacity: 0.5;
 }
 
-
+@media (max-width: 1700px){
+    .contact-us{
+        padding-left: 12.6%;
     
+    }
+    .contact-questions{
+
+        padding-left: 12.5%;
+    }
+    .contact-num-mail{
+
+        padding-left: 12.6%;
+        
+    }
+    
+}
+
+@media (max-width: 1300px){
+    .contact-second{
+        
+        padding-left: 60.78125%;
+        width: 14.9%;
+    }
+    .underline{
+        width: 86%;
+        
+    }
+    
+    .contact-second-two{
+        
+        padding-left:  75.625%;
+        width: 24.375%;
+        
+    }
+    .contact-second-text-two{
+        width: 52.5625%;
+    }
+    .underline-second{
+        
+        width: 52.5625%;
+      
+    }
+    
+    .contact-second-three{
+        
+        padding-left: 60.78125%;
+        width: 39.21875%;
+        
+    }
+
+    .contact-second-text-three{
+        width: 70.89%;
+    }
+
+    .underline-three{
+        
+        width: 70.89%;
+        
+    }
+   
+    .submit-button{
+      
+        margin-left: 74.84375%;
+        
+    }
+}
+
+@media (max-width: 960px){
+    .contact-us{
+        font-size: 30px;
+    }
+
+    .contact-questions{
+        max-width: 230px;
+        
+
+    }
+    .email-c{
+        display: flex;
+        width: 100%;
+        padding-top: 50px;
+        position: absolute;
+    }
+    .white-phone {
+        width: 18px;
+        height: 30px;
+        
+    }
+    .white-mail {
+        padding-left: 0%;
+        width: 25px;
+        height: 18px;
+        align-self: center;
+    }
+}

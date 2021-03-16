@@ -1,6 +1,7 @@
 .section-two{
     
     width: 100%;
+    padding-bottom: 30px;
     
     min-height: 1242px;
     background-color: rgba(235, 235, 235, 1);
@@ -13,7 +14,7 @@
     font-weight: 900;
     font-size: 24px;
     line-height: 33px;
-    padding-left: 382px;
+    padding-left: 19.89583%;
     padding-top:  148px;
     color: rgba(189, 189, 189, 1);
     
@@ -26,15 +27,15 @@
     font-weight: 900;
     font-size: 48px;
     line-height: 69px;
-    padding-left: 384px;
+    padding-left: 20%;
     padding-top:  40px;
     color: rgba(51, 51, 51, 1);
     
 }
 .section-images{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -44,6 +45,8 @@
     
     
 }
+
+
 
 .image{
     
@@ -57,6 +60,9 @@
     
     
   
+}
+.last-image{
+    margin-right: 0px;
 }
 .image:hover {
     background: url(img/Section-two.jpg);
@@ -75,4 +81,87 @@
     max-width: 140px;
     color: #FFFFFF;
     z-index: 2;
+}
+
+@media (max-width: 1630px){
+
+    .section-images{
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 1390px){
+    .section-images{
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 1240px){
+
+    .section-our{
+
+        font-size: 24px;
+        
+        padding-left: 19.89583%;
+        padding-top:  100px;
+       
+        
+    }
+    
+    
+    .section-specialization{
+        font-size: 42px;
+        
+        padding-left: 20%;
+       
+    }
+    .last-image{
+        margin-right: 30px;
+        
+    }
+    .section-two{
+        padding-bottom: 30px;
+     
+    }
+}
+
+@media (max-width: 850px){
+    .image{
+        width: 250px;
+        height: 260px;
+        
+     
+    }
+    .section-our{
+
+        font-size: 24px;
+        
+        padding-left: 9.89583%;
+        padding-top:  50px;
+       
+        
+    }
+    
+    
+    .section-specialization{
+        font-size: 38px;
+        
+        padding-left: 10%;
+        padding-top:  20px;
+        
+    }
+
+    .section-two{
+
+        min-height: auto;
+
+    }
+    /* .section-two .section-images .section-images_list:nth-child(3) .image{
+        padding-right: 0%;
+    } */
+    .image-name{
+            
+        margin-left: 35px;
+        font-size: 20px;
+    }
 }

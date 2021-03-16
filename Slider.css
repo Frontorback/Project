@@ -36,7 +36,7 @@
     font-family: Merriweather-Regular;
     position: absolute;
     top: 170px;
-    left: 405px;
+    padding-left: 21.09%;
     
     color: white;
     font-size: 48px;
@@ -51,7 +51,7 @@
     width: 270px;
     height: 60px;
     top: 367px;
-    left: 405px;
+    margin-left: 21.09%;
     cursor: pointer;
     border-width: 0px;
     font-size: 18px;
@@ -75,13 +75,21 @@
 	
 	transition: .6s;
 }
+.btn{
+    margin-left: 72.65625%;
+    display: block;
+}
 .prev-first{
-    left: 1395px;
+    /* left: 50%; */
+    
+    
     background-color: rgba(0, 95, 163, 1);
     opacity: 0.2;
 }
 .next-first{
-    left: 1455px;
+    /* left: 52%; */
+    
+    margin-left: 60px;
     background-color: rgba(0, 95, 163, 1);
     opacity: 1;
     
@@ -101,19 +109,26 @@
     opacity: 0.1;
     
 }
+.dot-main{
+    display: flex;
+    justify-content: space-between;
+}
+
 .doted{
+    
     position: absolute;
     
     cursor: pointer;
     top: 547px;
 	width: 10px;
-	height: 10px;
-	
+    height: 10px;
+ 
 	border-radius: 50%;
 	display: inline-block;
     background-color: rgba(0, 95, 163, 1);
     opacity: 0.4;
     transition: background-color, opacity 0.6s ease;
+    
    
 }
 .active, .dots:hover{
@@ -122,18 +137,78 @@
 }
 
 .doted-one{
+    margin-left: 21.09%;
     
-    left: 405px;
 }
 .doted-two{
+    margin-left: 23.697916%;
     
-    left: 455px;
 }
 .doted-three{
     
-    left: 505px;
+    margin-left: 26.302083%;
 }
 .doted-four{
     
-    left: 555px;
+    margin-left: 28.90625%;
+}
+
+
+@media (max-width: 1161px){
+    .loopSliders-text{
+        
+        top: 170px;
+        padding-left: 21.09%;
+        
+        
+        font-size: 38px;
+        line-height: 66px;
+        max-width: 588px;
+        
+    }
+
+}
+
+@media (max-width: 1000px){
+    .loopSliders-text{
+        
+        top: 170px;
+        padding-left: 11.09%;
+        
+        
+        font-size: 28px;
+        line-height: 66px;
+        max-width: 355px;
+        
+    }
+
+    .loopSliders-presentation{
+        
+        width: 270px;
+        height: 60px;
+        top: 367px;
+        margin-left: 11.09%;
+        
+        font-size: 18px;
+        line-height: 25px;
+        
+    }
+
+    .doted-one{
+        margin-left: 15.09%;
+        
+    }
+    .doted-two{
+        margin-left: 19.697916%;
+        
+    }
+    .doted-three{
+        
+        margin-left: 24.302083%;
+    }
+    .doted-four{
+        
+        margin-left: 28.90625%;
+    }
+
 }

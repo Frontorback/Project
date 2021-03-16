@@ -7,8 +7,8 @@
 .The-end-first{
 
     position: absolute;
-    top: 50px;
-    left: 407px;
+    padding-top: 50px;
+    padding-left: 21.197916%;
 
     font-weight: 300;
     font-size: 14px;
@@ -17,11 +17,11 @@
 }
 .The-end-second{
     position: absolute;
-    width: 401px;
+    width: 20.88541666666667%;
     text-align: right;
 
-    top: 50px;
-    left: 1114px;
+    padding-top: 50px;
+    padding-left: 58.02083333333333%;
 
     font-weight: 300;
     font-size: 14px;

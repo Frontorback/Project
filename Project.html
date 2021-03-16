@@ -16,7 +16,9 @@
     <script src="Project.js" defer></script>
     <script src="Slider-Project.js" defer></script>
     <script src="Slider-Project-three.js" defer></script>
-    <script src="Submit-massage.js" defer></script>
+    <script src="burger.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <!-- <script src="Submit-massage.js" defer></script> -->
     
     
 
@@ -47,13 +49,20 @@
                         <span class="number" >Невский пр. 130</span>
                     </li>
                 </ul>
-                <ul class="list-two">
-                    <li><a class="list-two-about list-two-main" href="#">главная</a> </li>
-                    <li><a class="list-two-about" href="#services">услуги</a></li>
-                    <li><a class="list-two-about" href="#cases">кейсы</a></li>
-                    <li><a class="list-two-about" href="#cases">о компании</a></li>
-                    <li><a class="list-two-about list-two-last" href="#our-contacts">контакты</a></li>
-                </ul>
+                <div class="test">
+                    <div class="burger">
+                        <span class="burger-span"></span>
+                    </div>
+                </div>
+                <div class="burger-menu">    
+                    <ul class="list-two">
+                        <li><a class="list-two-about list-two-main" href="#">главная</a> </li>
+                        <li><a class="list-two-about" href="#services">услуги</a></li>
+                        <li><a class="list-two-about" href="#cases">кейсы</a></li>
+                        <li><a class="list-two-about" href="#cases">о компании</a></li>
+                        <li><a class="list-two-about list-two-last" href="#our-contacts">контакты</a></li>
+                    </ul>
+                </div>    
             </nav>
     
     </header>
@@ -93,11 +102,10 @@
           <img class="loopSliders-img" src="img/Rectangle.png" alt="Rectangle" >
           
         </div>
-          
-          
-       
-        <a class="prev-first" data-changing="-1"></a>
-        <a class="next-first" data-changing="+1"></a>
+          <div class="btn">
+            <a class="prev-first" data-changing="-1"></a>
+            <a class="next-first" data-changing="+1"></a>
+        </div>
         <div>
           <span class="doted doted-one"></span>
           <span class="doted doted-two"></span>
@@ -119,7 +127,7 @@
                 <div class="image-name">Бухгалтерское обслуживание</div>
             </div>
             <div class="section-images_list">
-                <div class="image"></div>
+                <div class="image last-image"></div>
                 <div class="image-name">Бухгалтерское обслуживание</div>
             </div>
             <div class="section-images_list">
@@ -131,7 +139,7 @@
                 <div class="image-name">Бухгалтерское обслуживание</div>
             </div>
             <div class="section-images_list">
-                <div class="image"></div>
+                <div class="image last-image"></div>
                 <div class="image-name">Бухгалтерское обслуживание</div>
             </div>
         </div>
@@ -222,8 +230,10 @@
         
         
       </div>
-      <a class="prev" data-change="-1"></a>
-      <a class="next" data-change="+1"></a>
+        <div class="btn">
+            <a class="prev" data-change="-1"></a>
+            <a class="next" data-change="+1"></a>
+        </div>  
       <div>
         <span class="dot dot-one"></span>
         <span class="dot dot-two"></span>
@@ -303,8 +313,11 @@
                           </div>
                         </div>
                     </div>
-                    <a class="prev-two" data-changed="-1"></a>
-                    <a class="next-two" data-changed="+1"></a>
+                        <div class="btn">
+                            <a class="prev-two" data-changed="-1"></a>
+                            <a class="next-two" data-changed="+1"></a>
+                        </div>    
+
                     <div>
                       <span class="dots dot-next-one dot-all-two"></span>
                       <span class="dots dot-next-two dot-all-two"></span>
@@ -324,8 +337,10 @@
             <div class="contact-num-mail">
                 <img class="white-phone" src="img/white-phone.png" alt="white-phone">
                 <div class="num-white-phone">+7 (111) 222-33-44</div>
-                <img class="white-mail" src="img/white-mail.png" alt="white-mail">
-                <div class="email-white-mail">order@bu-one.ru</div>
+                <div class="email-c">
+                    <img class="white-mail" src="img/white-mail.png" alt="white-mail">
+                    <div class="email-white-mail">order@bu-one.ru</div>
+                </div>
             </div>
             <label class="contact-second">
                 <div class="contact-second-name">Имя:</div>
